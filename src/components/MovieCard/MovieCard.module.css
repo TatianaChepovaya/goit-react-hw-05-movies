@@ -1,0 +1,47 @@
+.wrap {
+  padding: 20px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #2a363b;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 300px;
+  margin-bottom: 15px;
+}
+.info {
+  padding: 15px 0;
+}
+
+.movieTitle {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subText {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    display: flex;
+    padding: 20px 0;
+  }
+  .image {
+    margin-right: 30px;
+  }
+}
